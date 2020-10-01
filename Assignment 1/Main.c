@@ -26,8 +26,11 @@ void main() {
 	}
 	else {
 		d = b * b - 4*a*c;
-		if (d < 0) {
+		if (d == 0) {
 			printf("\nPhuong trinh co nghiem kep x1 = x2 = %g", -b / (2 * a));
+		}
+		else if (d < 0){
+			printf("\nPhuong trinh vo nghiem");
 		}
 		else {
 			printf("\nPhuong trinh co 2 nghiem phan biet: ");
