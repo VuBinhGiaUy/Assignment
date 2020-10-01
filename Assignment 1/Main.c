@@ -22,13 +22,13 @@ void main() {
 			}
 		}
 		else {
-			printf("\nPhuong trinh co 1 nghiem x = %g", -c / b);
+			printf("\nPhuong trinh co 1 nghiem x = %.2f", -c / b);
 		}
 	}
 	else {
 		d = b * b - 4*a*c;
 		if (d == 0) {
-			printf("\nPhuong trinh co nghiem kep x1 = x2 = %g", -b / (2 * a));
+			printf("\nPhuong trinh co nghiem kep x1 = x2 = %.2f", -b / (2 * a));
 		}
 		else if (d < 0){
 			printf("\nPhuong trinh vo nghiem");
@@ -37,8 +37,8 @@ void main() {
 			printf("\nPhuong trinh co 2 nghiem phan biet: ");
 			x1 = (-b + sqrt(d)) / (2 * a);
 			x2 = (-b - sqrt(d)) / (2 * a);
-			printf("\nx1 = %g", x1);
-			printf("\nx2 = %g", x2);
+			printf("\nx1 = %.2f", x1);
+			printf("\nx2 = %.2f", x2);
 		}
 	}
 }
