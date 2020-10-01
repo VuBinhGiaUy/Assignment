@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <conio.h>
 #include <math.h>
@@ -5,11 +6,11 @@
 void main() {
 	float a, b, c, d, x1, x2;
 	printf("\nNhap so a: ");
-	scanf_s("%f", &a);
+	scanf("%f", &a);
 	printf("\nNhap so b: ");
-	scanf_s("%f", &b);
+	scanf("%f", &b);
 	printf("\nNhap so c: ");
-	scanf_s("%f", &c);
+	scanf("%f", &c);
 
 	if (a == 0) {
 		if (b == 0) {
